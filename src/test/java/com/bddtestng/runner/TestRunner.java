@@ -11,16 +11,20 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
 		
 		features="D:\\Projects_Selenium\\BDD-TESTNG\\src\\main\\java\\com\\bddtestng\\feature",
 		glue= {"com\\bddtestng\\stepdefinitions"},
-		plugin= {"pretty", "html:test-output", "html:target/cucumber-reports/cucumber-pretty"},
+		format= {"pretty", "html:test-output", "html:target/cucumber-reports/cucumber-pretty",
+				"json:target/cucumber-reports/CucumberTestReport.json",
+				"rerun:target/cucumber-reports/rerun.txt"}
+				,plugin = "json:target/cucumber-reports/CucumberTestReport.json",
 		dryRun=false,
 		monochrome=true,
 		strict=true,
 		tags= {"@SmokeTest"})
+
 
 public class TestRunner {
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51" started-at="2020-01-25T09:06:40Z" finished-at="2020-01-25T09:06:40Z">
+    <groups>
+    </groups>
+    <test name="BDD-TESTNG Test" duration-ms="51" started-at="2020-01-25T09:06:40Z" finished-at="2020-01-25T09:06:40Z">
+      <class name="com.bddtestng.stepdefinitions.CalenderDefinitionStep">
+        <test-method status="PASS" signature="select_today_s_date()[pri:1, instance:com.bddtestng.stepdefinitions.CalenderDefinitionStep@71809907]" name="select_today_s_date" duration-ms="13" started-at="2020-01-25T09:06:40Z" finished-at="2020-01-25T09:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_today_s_date -->
+      </class> <!-- com.bddtestng.stepdefinitions.CalenderDefinitionStep -->
+    </test> <!-- BDD-TESTNG Test -->
+  </suite> <!-- Suite -->
+</testng-results>

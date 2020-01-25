@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="BDD Test Suite" verbose="1" parallel="tests"
-	thread-count="1" configfailurepolicy="continue">
-	<test name="Cogmento CRM Test" annotations="JDK"
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="1" parallel="tests" thread-count="1"
+	configfailurepolicy="continue">
+
+	<test name="BDD-TESTNG Test" annotations="JDK"
 		preserve-order="true">
+
 		<classes>
-			<class name="com.bddtestng.runner.TestRunner" />
+			<!-- <class name="com.bddtestng.runner.TestRunner"/> -->
+			<!-- <class name="com.bddtestng.stepdefinitions.CalenderDefinitionStep"/> -->
+			<class name="com.bddtestng.feature.Calender"></class>
 		</classes>
-	</test>
-</suite>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

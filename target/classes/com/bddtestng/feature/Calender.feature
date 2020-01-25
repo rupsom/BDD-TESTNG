@@ -1,11 +1,11 @@
 Feature: Various Webelement Testing
 
 Background: Before() and After() from StepDefinitions will run BEFORE Scenario and AFTER Scenario
-            Like Browser Open
-            login in application
-            Log Write
-            logout from application
-            Browser Closing
+            Like Browser Open,
+            login in application,
+            Log Write,
+            logout from application,
+            and Browser Closing
          
 @SmokeTest
 Scenario Outline: Webelement Testing

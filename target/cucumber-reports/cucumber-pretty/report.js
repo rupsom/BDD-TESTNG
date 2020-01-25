@@ -97,13 +97,13 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9981791693,
+  "duration": 14664519500,
   "status": "passed"
 });
 formatter.background({
   "line": 3,
   "name": "Before() and After() from StepDefinitions will run BEFORE Scenario and AFTER Scenario",
-  "description": "          Like Browser Open\r\n          login in application\r\n          Log Write\r\n          logout from application\r\n          Browser Closing",
+  "description": "          Like Browser Open,\r\n          login in application,\r\n          Log Write,\r\n          logout from application,\r\n          and Browser Closing",
   "type": "background",
   "keyword": "Background"
 });
@@ -174,28 +174,28 @@ formatter.match({
   "location": "CalenderDefinitionStep.select_the_Calender()"
 });
 formatter.result({
-  "duration": 170697048,
+  "duration": 256115900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.home_page()"
 });
 formatter.result({
-  "duration": 35923,
+  "duration": 89900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.uncheck_the_Call()"
 });
 formatter.result({
-  "duration": 51318,
+  "duration": 99900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.select_today_s_date()"
 });
 formatter.result({
-  "duration": 34383,
+  "duration": 110700,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "CalenderDefinitionStep.put_a_title(String)"
 });
 formatter.result({
-  "duration": 4270210,
+  "duration": 3677100,
   "status": "passed"
 });
 formatter.match({
@@ -221,7 +221,7 @@ formatter.match({
   "location": "CalenderDefinitionStep.select_the_category(String)"
 });
 formatter.result({
-  "duration": 216564,
+  "duration": 162700,
   "status": "passed"
 });
 formatter.match({
@@ -234,28 +234,28 @@ formatter.match({
   "location": "CalenderDefinitionStep.is_appropiate_person_visible_in_Assigned_To(String)"
 });
 formatter.result({
-  "duration": 136507,
+  "duration": 181900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.click_the_Save_button()"
 });
 formatter.result({
-  "duration": 41055,
+  "duration": 90900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 675841726,
+  "duration": 844733400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7689784442,
+  "duration": 14497213400,
   "status": "passed"
 });
 formatter.background({
   "line": 3,
   "name": "Before() and After() from StepDefinitions will run BEFORE Scenario and AFTER Scenario",
-  "description": "          Like Browser Open\r\n          login in application\r\n          Log Write\r\n          logout from application\r\n          Browser Closing",
+  "description": "          Like Browser Open,\r\n          login in application,\r\n          Log Write,\r\n          logout from application,\r\n          and Browser Closing",
   "type": "background",
   "keyword": "Background"
 });
@@ -326,28 +326,28 @@ formatter.match({
   "location": "CalenderDefinitionStep.select_the_Calender()"
 });
 formatter.result({
-  "duration": 33870,
+  "duration": 91200,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.home_page()"
 });
 formatter.result({
-  "duration": 31817,
+  "duration": 81900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.uncheck_the_Call()"
 });
 formatter.result({
-  "duration": 34384,
+  "duration": 112400,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.select_today_s_date()"
 });
 formatter.result({
-  "duration": 32844,
+  "duration": 86500,
   "status": "passed"
 });
 formatter.match({
@@ -360,7 +360,7 @@ formatter.match({
   "location": "CalenderDefinitionStep.put_a_title(String)"
 });
 formatter.result({
-  "duration": 121625,
+  "duration": 140300,
   "status": "passed"
 });
 formatter.match({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "CalenderDefinitionStep.select_the_category(String)"
 });
 formatter.result({
-  "duration": 89808,
+  "duration": 128600,
   "status": "passed"
 });
 formatter.match({
@@ -386,18 +386,18 @@ formatter.match({
   "location": "CalenderDefinitionStep.is_appropiate_person_visible_in_Assigned_To(String)"
 });
 formatter.result({
-  "duration": 105203,
+  "duration": 121900,
   "status": "passed"
 });
 formatter.match({
   "location": "CalenderDefinitionStep.click_the_Save_button()"
 });
 formatter.result({
-  "duration": 40028,
+  "duration": 90600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 661012226,
+  "duration": 825736000,
   "status": "passed"
 });
 });
